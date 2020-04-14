@@ -1,0 +1,95 @@
+{
+  "_id": { "$oid": "A07f1f77bcf82cd799439111" },
+  "menus": ["A27f1f77bcf86cd799411012"],
+  "BriefVersionTermsAndConditions": null,
+  "Location": {
+    "Address": "100 fraklin street",
+    "Suburb": "Melbourne",
+    "Postcode": "3000",
+    "State": "victoria",
+    "Country": "AU",
+    "Location": {
+      "type": "Point",
+      "coordinates": [35.800149, 50.884762]
+    }
+  },
+  "OperatingHours": [
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Monday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Tuesday",
+      "ClosingTime": "23:30:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Wednesday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Thursday",
+      "ClosingTime": "18:30:00"
+    },
+    {
+      "DayOfWeek": "Friday",
+      "ClosingTime": "21:00:00",
+      "OpeningTime": "09:00:00"
+    }
+  ],
+  "DeliveryRadius": null,
+  "Logo": "https://app.abacus.co/Assets/CompanyLogo/19864aa9-6ee5-4d1b-bf93-4eb368bcbcc5.png",
+  "HQCompanyID": "2350244",
+  "IsEnabled": true,
+  "MobilePhone": null,
+  "ClosingStoreMessage": "",
+  "StoreTitle": "",
+  "TimezoneIanaFormat": "Australia/Sydney",
+  "ViewComponentConfigs": { "PickUp": true, "EatIn": true, "Delivery": true },
+  "CurrencyLocaleName": "en-AU",
+  "Delivery": true,
+  "HQCompany_ID": "2350244",
+  "PaymentConfigEnvironmentGiftCard": null,
+  "IsInOperation": true,
+  "PaymentConfig": null,
+  "Website": null,
+  "IsHQ": false,
+  "DisplayOrder": 0,
+  "TimeSettings": null,
+  "FreightFeeRules": [
+    {
+      "FreightFeeAmount": 3,
+      "PriceRangeMinimum": 1,
+      "PriceRangeMaximum": 100,
+      "FreightFeePerKilometer": 2,
+      "FreightFeeMinimum": null
+    }
+  ],
+  "TermsAndConditions": null,
+  "Company_ID": "2350244",
+  "PaymentConfigEnvironment": "Sandbox",
+  "OrderTypeConstraintRules": null,
+  "PickUp": true,
+  "Policies": {
+    "PolicyTypeDelivery": null,
+    "PolicyTypePrivacy": null,
+    "PolicyTypeRefund": null
+  },
+  "ContactEmail": "1a09k1a01k90a901ka1@gmail.com",
+  "RegistrationNumber": null,
+  "DeliveryAreas": [],
+  "PaymentConfigNab": null,
+  "IsTest": false,
+  "OfficePhone": null,
+  "ID": "2350244",
+  "ProfileImage": "https://app.abacus.co/Assets/CompanyProfileImage/6a287a6e-d97c-4387-abd8-df4e47cc718b.jpg",
+  "EatIn": true,
+  "ChargeToRoom": false,
+  "OrderPreparationTime": 0,
+  "Name": "SelfOrderingDemo",
+  "DeliveryRules": null,
+  "TimezoneCity": "Canberra, Melbourne, Sydney"
+}
