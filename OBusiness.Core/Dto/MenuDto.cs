@@ -2,9 +2,9 @@
 
 namespace OBusiness.Core.Dto
 {
-    public class Menu
+    public class MenuDto
     {
         public int MenuID { get; set; }
-        public List<Category> Categories { get; set; }
+        public List<CategoryDto> Categories { get; set; }
     }
 }

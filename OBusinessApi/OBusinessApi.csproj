@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Factories\" />
+    <ProjectReference Include="..\OBusiness.Core\OBusiness.Core.csproj" />
+    <ProjectReference Include="..\OBusiness.Services\OBusiness.Services.csproj" />
   </ItemGroup>
 
 

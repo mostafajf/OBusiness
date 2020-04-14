@@ -2,11 +2,11 @@
 using System.Linq;
 namespace OBusiness.Core.Dto
 {
-    public class ModifierGroup
+    public class ModifierGroupDto
     {
-        public ModifierGroup()
+        public ModifierGroupDto()
         {          
-            ModifiersList = new List<Modifier>();          
+            ModifiersList = new List<ModifierDto>();          
         }
 
         public int? DisplayOrder { get; set; } = 1000;
@@ -23,12 +23,12 @@ namespace OBusiness.Core.Dto
         public int? MaximumSelection { get; set; }
         public int? MinimumSelection { get; set; }
         public int SelectionCount { get; set; }  
-        public Modifier ParentModifier { get; set; }
-        public List<Modifier> ModifiersList { get; set; }
-        public Product Product { get; set; }
-        public ModifierGroup Clone(Product productVm)
+        public ModifierDto ParentModifier { get; set; }
+        public List<ModifierDto> ModifiersList { get; set; }
+        public ProductDto Product { get; set; }
+        public ModifierGroupDto Clone(ProductDto productVm)
         {
-            var res = new ModifierGroup();
+            var res = new ModifierGroupDto();
             res.ID = ID;
             res.IncludeQuantity = IncludeQuantity;
             res.IsAutoSel = IsAutoSel;

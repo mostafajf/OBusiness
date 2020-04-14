@@ -2,7 +2,7 @@
 using System.Linq;
 namespace OBusiness.Core.Dto
 {
-    public class Modifier
+    public class ModifierDto
     {     
         public int ModifierGroupId { get; set; }
         public int? OldState { get; set; }
@@ -23,15 +23,15 @@ namespace OBusiness.Core.Dto
 
         public string PhotoUrl { get; set; }
 
-        public List<ModifierGroup> SubModifiers { get; set; }        
-        public ModifierGroup ModifierGroup { get; set; }
+        public List<ModifierGroupDto> SubModifiers { get; set; }        
+        public ModifierGroupDto ModifierGroup { get; set; }
         public bool IsSingleSell => !(MaxQty >= MinQty && MaxQty > 1);
         public int MinQty { get; set; } = 1;
         public int MaxQty { get; set; } = 20;  
 
-        public Modifier Clone(ModifierGroup modifierGroupVm)
+        public ModifierDto Clone(ModifierGroupDto modifierGroupVm)
         {
-            return new Modifier
+            return new ModifierDto
             {
                 Code = Code,              
                 DisplayName = DisplayName,

@@ -2,14 +2,14 @@
 
 namespace OBusiness.Core.Dto
 {
-    public class Category
+    public class CategoryDto
     {
-        public Category()
+        public CategoryDto()
         {
-            Products = new List<Product>();
+            Products = new List<ProductDto>();
         }
         public int ID { get; set; }
         public string Name { get; set; }  
-        public List<Product> Products { get; set; }
+        public List<ProductDto> Products { get; set; }
     }
 }

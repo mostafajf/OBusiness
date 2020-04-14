@@ -6,9 +6,9 @@ using System.Windows.Input;
 
 namespace OBusiness.Core.Dto
 {
-    public class Product
+    public class ProductDto
     {
-        public Product()
+        public ProductDto()
         {           
             UID = Guid.NewGuid();
         }
@@ -16,7 +16,7 @@ namespace OBusiness.Core.Dto
         public Guid UID { get; set; }
         public List<string> ProductCategoryIDs { get; set; }
         public List<string> ProductTagIDs { get; set; }
-        public List<ModifierGroup> ModifierGroups { get; set; }
+        public List<ModifierGroupDto> ModifierGroups { get; set; }
         public string DisplayOrder { get; set; }
         public string FullDescription { get; set; }
         public string Name { get; set; }
@@ -27,9 +27,9 @@ namespace OBusiness.Core.Dto
         public double TaxRate { get; set; }
         public double Price { get; set; }      
         public bool IsRedemption { get; set; } = false;   
-        public Product Clone()
+        public ProductDto Clone()
         {
-            var result = new Product();
+            var result = new ProductDto();
             result.ID = ID;
             result.DisplayOrder = DisplayOrder;
             result.FullDescription = FullDescription;

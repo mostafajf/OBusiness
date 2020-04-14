@@ -24,9 +24,9 @@ namespace OBusiness.Core.Domain.Models
         
         public string ShortDescription { get; set; }
         
-        public int? Status { get; set; }
+        public int Status { get; set; }
         
-        public double? TaxRate { get; set; }        
+        public double TaxRate { get; set; }        
        
     }
 }
