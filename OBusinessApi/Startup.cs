@@ -10,7 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+using OBusinessApi.Infrastructure;
+using OBusinessApi.Infrastructure.Options;
 namespace OBusinessApi
 {
     public class Startup
@@ -26,6 +27,11 @@ namespace OBusinessApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            var dbSetting = new MongoClientOptions();
+            Configuration.GetSection(nameof(MongoClientOptions)).Bind(dbSetting);
+            IOC ioc = new IOC();
+            ioc.RegisterServices(services, dbSetting);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

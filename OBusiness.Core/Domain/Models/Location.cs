@@ -1,4 +1,7 @@
-﻿namespace OBusiness.Core.Domain.Models
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Driver.GeoJsonObjectModel;
+
+namespace OBusiness.Core.Domain.Models
 {
 
     public class Location
@@ -13,9 +16,7 @@
         public string Suburb { get; set; }
         
         public string Postcode { get; set; }
-        
-        public double? Latitude { get; set; }
-        
-        public double? Longitude { get; set; }
+        [BsonElement("Location")]
+        public GeoJsonPoint<GeoJson2DGeographicCoordinates> Coordinate { get; set; }
     }
 }

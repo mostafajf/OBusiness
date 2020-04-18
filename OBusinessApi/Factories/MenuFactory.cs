@@ -137,7 +137,7 @@ namespace Abacus.SelfOrder.App.ObjectFactory
                     DisplayOrder = mod.DisplayOrder,
                     ID = mod.ID,
                     MaxQty = mod.MaxQty,
-                    MinQty = mod.MinQty,
+                    MinQty = mod.MinQty, 
                     Name = mod.Name,
                     Status = mod.Status,
                     OldState = mod.Status,
