@@ -9,6 +9,7 @@ namespace OBusiness.Core.Data
 {
     public interface IGenericRepostory<T> where T : BaseEntity
     {
+        IMongoCollection<T> Collection { get; set; }
         Task<IAsyncCursor<T>> GetAll();
         Task<IAsyncCursor<T>> GetByID(string id);
         Task Add(T entity);

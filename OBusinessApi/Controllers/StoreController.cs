@@ -24,6 +24,10 @@ namespace OBusinessApi.Controllers
         {
             return await StoreService.GetAll();
         }
-
+        [HttpGet("{id}")]
+        public async Task<Store> Get([FromRoute]int id)
+        {
+            return await StoreService.GetByStoreID(id);
+        }
     }
 }

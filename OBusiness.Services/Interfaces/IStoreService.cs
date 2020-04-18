@@ -10,6 +10,7 @@ namespace OBusiness.Services.Interfaces
     {
         Task<List<Store>> GetAll();
         Task<Store> GetByID(string id);
+        Task<Store> GetByStoreID(int id);
         Task Add(Store entity);
         Task AddMany(List<Store> entities);
         Task Update(Store entity);

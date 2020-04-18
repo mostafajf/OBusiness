@@ -39,6 +39,12 @@ namespace OBusiness.Services.Services
             return store.FirstOrDefault();
         }
 
+        public async Task<Store> GetByStoreID(int id)
+        {
+            var store = await StoreRepository.Collection.FindAsync(c => c.StoreID == id);
+            return store.FirstOrDefault();
+        }
+
         public async Task Remove(Store entity)
         {
             await StoreRepository.Remove(entity);

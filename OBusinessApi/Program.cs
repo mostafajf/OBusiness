@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OBusiness.Core.Data;
 
 namespace OBusinessApi
 {
@@ -22,5 +24,24 @@ namespace OBusinessApi
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+        private static void CreateDbIfNotExists(IHost host)
+        {
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                try
+                {
+                    var init = services.GetRequiredService<InitData>();
+                    var enviroment = services.GetRequiredService<IWebHostEnvironment>();
+                    init.GenerateTestData(enviroment.ContentRootPath);
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred creating the DB.");
+                }
+            }
+        }
     }
 }

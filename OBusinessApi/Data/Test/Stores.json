@@ -1,0 +1,201 @@
+{
+  "_id": { "$oid": "A07f1f77bcf82cd799439012" },
+  "menus": ["A27f1f77bcf86cd799439012"],
+  "HQCompanyID": "2478064",
+  "IsEnabled": true,
+  "MobilePhone": null,
+  "StoreID": 2515520,
+  "ClosingStoreMessage": "",
+  "StoreTitle": "",
+  "TimezoneIanaFormat": "Australia/Sydney",
+  "ViewComponentConfigs": {
+    "PickUp": true,
+    "EatIn": false,
+    "Delivery": true
+  },
+  "CurrencyLocaleName": "en-AU",
+  "Delivery": true,
+  "HQCompany_ID": "2515520",
+  "PaymentConfigEnvironmentGiftCard": null,
+  "IsInOperation": true,
+  "PaymentConfig": null,
+  "Website": null,
+  "IsHQ": false,
+  "DisplayOrder": 0,
+  "TimeSettings": null,
+  "FreightFeeRules": [
+    {
+      "FreightFeeAmount": 10,
+      "PriceRangeMinimum": 0,
+      "PriceRangeMaximum": 10000,
+      "FreightFeePerKilometer": null,
+      "FreightFeeMinimum": null
+    }
+  ],
+  "TermsAndConditions": null,
+  "OrderTypeConstraintRules": null,
+  "PickUp": true,
+  "Policies": {
+    "PolicyTypeDelivery": null,
+    "PolicyTypePrivacy": null,
+    "PolicyTypeRefund": null
+  },
+  "PriceTriggers": {
+    "36983": {
+      "ProductTagOutcomes": [],
+      "ProductCategoryOutcomes": [
+        { "ProductCategoryID": "67249", "Quantity": 1 }
+      ],
+      "DiscountPercentageValue": 0,
+      "ProductTagConditions": [],
+      "ProductCategoryConditions": [
+        { "Quantity": 1, "ProductCategoryID": "67249" },
+        { "Quantity": 1, "ProductCategoryID": "67299" }
+      ],
+      "OutcomePriceType": 0,
+      "ID": "36983",
+      "ProductOutcomes": [],
+      "FixedPriceValue": 0,
+      "Name": "Meal deal",
+      "FreeUpToValue": null,
+      "OrderType": null,
+      "MinimumSpend": null,
+      "EndAt": { "_seconds": 1585573200, "_nanoseconds": 0 },
+      "OutcomeType": 2,
+      "Priority": 2,
+      "MembershipLevelID": "",
+      "IsOutcomeLinkedToProduct": false,
+      "DiscountFlatValue": 5,
+      "TriggerMode": 0,
+      "CustomerTags": [],
+      "RunType": 2,
+      "StartAt": { "_seconds": 1580475600, "_nanoseconds": 0 },
+      "IsMostExpensiveFirst": false,
+      "NotApplicableWithCoupon": false,
+      "IsDisabled": false
+    },
+    "36984": {
+      "DiscountPercentageValue": 1,
+      "ProductTagConditions": [],
+      "ProductCategoryConditions": [
+        { "ProductCategoryID": "64286", "Quantity": 2 }
+      ],
+      "OutcomePriceType": 1,
+      "ID": "36984",
+      "ProductOutcomes": [],
+      "FixedPriceValue": 0,
+      "Name": "BuyOneGetOneFree1",
+      "FreeUpToValue": null,
+      "OrderType": null,
+      "MinimumSpend": null,
+      "EndAt": { "_seconds": 1585573200, "_nanoseconds": 0 },
+      "OutcomeType": 2,
+      "Priority": 1,
+      "MembershipLevelID": "",
+      "IsOutcomeLinkedToProduct": false,
+      "DiscountFlatValue": 0,
+      "TriggerMode": 0,
+      "CustomerTags": [],
+      "RunType": 2,
+      "StartAt": { "_seconds": 1580475600, "_nanoseconds": 0 },
+      "IsMostExpensiveFirst": false,
+      "NotApplicableWithCoupon": false,
+      "IsDisabled": false,
+      "ProductTagOutcomes": [],
+      "ProductCategoryOutcomes": []
+    },
+    "37009": {
+      "TriggerMode": 0,
+      "CustomerTags": [],
+      "RunType": 2,
+      "StartAt": null,
+      "IsMostExpensiveFirst": false,
+      "NotApplicableWithCoupon": false,
+      "IsDisabled": false,
+      "ProductTagOutcomes": [],
+      "ProductCategoryOutcomes": [],
+      "DiscountPercentageValue": 0,
+      "ProductTagConditions": [{ "ProductTagID": "3277", "Quantity": 3 }],
+      "ProductCategoryConditions": [],
+      "OutcomePriceType": 0,
+      "ID": "37009",
+      "ProductOutcomes": [],
+      "FixedPriceValue": 0,
+      "Name": "Special Range Promotion",
+      "FreeUpToValue": null,
+      "OrderType": null,
+      "MinimumSpend": null,
+      "EndAt": null,
+      "OutcomeType": 0,
+      "Priority": 0,
+      "MembershipLevelID": "",
+      "IsOutcomeLinkedToProduct": false,
+      "DiscountFlatValue": 5
+    }
+  },
+  "ContactEmail": "DinTaiFungDemo@email.com",
+  "RegistrationNumber": null,
+  "DeliveryAreas": [{ "PostcodeFrom": "3000", "PostcodeTo": "3150" }],
+  "PaymentConfigNab": null,
+  "IsTest": false,
+  "OfficePhone": null,
+  "ID": "2515520",
+  "ProfileImage": "",
+  "EatIn": false,
+  "ChargeToRoom": false,
+  "OrderPreparationTime": 30,
+  "Name": "Din Tai Fung - Demo",
+  "DeliveryRules": null,
+  "TimezoneCity": "Canberra, Melbourne, Sydney",
+  "BriefVersionTermsAndConditions": null,
+  "Location": {
+    "Country": "Australia",
+    "Address": "102 station street",
+    "Suburb": "Burwood",
+    "Postcode": "3125",
+    "State": "Vic",
+    "Location": {
+      "type": "Point",
+      "coordinates": [35.810149, 50.874762]
+    }
+  },
+  "OperatingHours": [
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Sunday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Monday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Tuesday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Wednesday",
+      "ClosingTime": "21:00:00"
+    },
+    {
+      "DayOfWeek": "Thursday",
+      "ClosingTime": "21:00:00",
+      "OpeningTime": "09:00:00"
+    },
+    {
+      "ClosingTime": "21:00:00",
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Friday"
+    },
+    {
+      "OpeningTime": "09:00:00",
+      "DayOfWeek": "Saturday",
+      "ClosingTime": "21:00:00"
+    }
+  ],
+  "DeliveryRadius": null,
+  "Logo": ""
+}

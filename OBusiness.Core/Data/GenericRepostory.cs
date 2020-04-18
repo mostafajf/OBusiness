@@ -11,46 +11,45 @@ namespace OBusiness.Core.Data
     {
 
         MongoDatabase db;
-        IMongoCollection<T> collection;
-        public IMongoCollection<T> Collection => this.collection;
+        public IMongoCollection<T> Collection { get; set; }
         public GenericRepostory(MongoDatabase db)
         {
             this.db = db;
-            this.collection = db.GetCollection<T>();
+            this.Collection = db.GetCollection<T>();
         }
         public Task Add(T entity)
         {
-            return collection.InsertOneAsync(entity);
+            return Collection.InsertOneAsync(entity);
         }
 
         public Task AddMany(List<T> entities)
         {
-            return collection.InsertManyAsync(entities);
+            return Collection.InsertManyAsync(entities);
         }
 
         public Task<IAsyncCursor<T>> GetAll()
         {
-            return collection.FindAsync(c => true);
+            return Collection.FindAsync(c => true);
         }
 
         public Task<IAsyncCursor<T>> GetByID(string id)
         {
-            return collection.FindAsync(c => c.Id == id);
+            return Collection.FindAsync(c => c.Id == id);
         }
 
         public Task Remove(T entity)
         {
-            return collection.DeleteOneAsync(c => c.Id == entity.Id);
+            return Collection.DeleteOneAsync(c => c.Id == entity.Id);
         }
 
         public Task Remove(string id)
         {
-            return collection.DeleteOneAsync(c => c.Id == id);
+            return Collection.DeleteOneAsync(c => c.Id == id);
         }
 
         public Task Update(T entity)
         {
-            return collection.ReplaceOneAsync(c => c.Id == entity.Id, entity);
+            return Collection.ReplaceOneAsync(c => c.Id == entity.Id, entity);
         }
 
     }

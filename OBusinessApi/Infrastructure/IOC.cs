@@ -27,6 +27,7 @@ namespace OBusinessApi.Infrastructure
             services.AddScoped(typeof(IGenericRepostory<>), typeof(GenericRepostory<>));
             services.AddScoped<IStoreService, StoreService>();
             services.AddScoped<IMenuService, MenuService>();
+            services.AddScoped<InitData>();
         }
     }
 }
