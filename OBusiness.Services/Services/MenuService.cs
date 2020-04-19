@@ -32,7 +32,11 @@ namespace OBusiness.Services.Services
             var Menus = await MenuRepository.GetAll();
             return Menus.ToList();
         }
-
+        public async Task<List<Menu>> GetStoreMenus(string storeId)
+        {
+            var Menus = await MenuRepository.Collection.FindAsync(c=>true);
+            return Menus.ToList();
+        }
         public async Task<Menu> GetByID(string id)
         {
             var Menu = await MenuRepository.GetByID(id);

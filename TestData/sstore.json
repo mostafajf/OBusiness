@@ -1,6 +1,10 @@
 {
-  "_id": { "$oid": "A07f1f77bcf82cd799439111" },
-  "menus": ["A27f1f77bcf86cd799411012"],
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439013"
+  },
+  "menus": [
+    "A27f1f77bcf86cd799411012"
+  ],
   "BriefVersionTermsAndConditions": null,
   "Location": {
     "Address": "100 fraklin street",
@@ -10,7 +14,10 @@
     "Country": "AU",
     "Location": {
       "type": "Point",
-      "coordinates": [35.800149, 50.884762]
+      "coordinates": [
+        35.800149,
+        50.884762
+      ]
     }
   },
   "OperatingHours": [
@@ -48,7 +55,11 @@
   "ClosingStoreMessage": "",
   "StoreTitle": "",
   "TimezoneIanaFormat": "Australia/Sydney",
-  "ViewComponentConfigs": { "PickUp": true, "EatIn": true, "Delivery": true },
+  "ViewComponentConfigs": {
+    "PickUp": true,
+    "EatIn": true,
+    "Delivery": true
+  },
   "CurrencyLocaleName": "en-AU",
   "Delivery": true,
   "HQCompany_ID": "2350244",

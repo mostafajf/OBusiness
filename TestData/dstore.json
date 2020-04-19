@@ -1,10 +1,13 @@
 {
-  "_id": { "$oid": "A07f1f77bcf82cd799439012" },
-  "menus": ["A27f1f77bcf86cd799439012"],
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "menus": [
+    "A27f1f77bcf86cd799439012"
+  ],
   "HQCompanyID": "2478064",
   "IsEnabled": true,
   "MobilePhone": null,
-  "StoreID": 2515520,
   "ClosingStoreMessage": "",
   "StoreTitle": "",
   "TimezoneIanaFormat": "Australia/Sydney",
@@ -44,13 +47,22 @@
     "36983": {
       "ProductTagOutcomes": [],
       "ProductCategoryOutcomes": [
-        { "ProductCategoryID": "67249", "Quantity": 1 }
+        {
+          "ProductCategoryID": "67249",
+          "Quantity": 1
+        }
       ],
       "DiscountPercentageValue": 0,
       "ProductTagConditions": [],
       "ProductCategoryConditions": [
-        { "Quantity": 1, "ProductCategoryID": "67249" },
-        { "Quantity": 1, "ProductCategoryID": "67299" }
+        {
+          "Quantity": 1,
+          "ProductCategoryID": "67249"
+        },
+        {
+          "Quantity": 1,
+          "ProductCategoryID": "67299"
+        }
       ],
       "OutcomePriceType": 0,
       "ID": "36983",
@@ -60,7 +72,10 @@
       "FreeUpToValue": null,
       "OrderType": null,
       "MinimumSpend": null,
-      "EndAt": { "_seconds": 1585573200, "_nanoseconds": 0 },
+      "EndAt": {
+        "_seconds": 1585573200,
+        "_nanoseconds": 0
+      },
       "OutcomeType": 2,
       "Priority": 2,
       "MembershipLevelID": "",
@@ -69,7 +84,10 @@
       "TriggerMode": 0,
       "CustomerTags": [],
       "RunType": 2,
-      "StartAt": { "_seconds": 1580475600, "_nanoseconds": 0 },
+      "StartAt": {
+        "_seconds": 1580475600,
+        "_nanoseconds": 0
+      },
       "IsMostExpensiveFirst": false,
       "NotApplicableWithCoupon": false,
       "IsDisabled": false
@@ -78,7 +96,10 @@
       "DiscountPercentageValue": 1,
       "ProductTagConditions": [],
       "ProductCategoryConditions": [
-        { "ProductCategoryID": "64286", "Quantity": 2 }
+        {
+          "ProductCategoryID": "64286",
+          "Quantity": 2
+        }
       ],
       "OutcomePriceType": 1,
       "ID": "36984",
@@ -88,7 +109,10 @@
       "FreeUpToValue": null,
       "OrderType": null,
       "MinimumSpend": null,
-      "EndAt": { "_seconds": 1585573200, "_nanoseconds": 0 },
+      "EndAt": {
+        "_seconds": 1585573200,
+        "_nanoseconds": 0
+      },
       "OutcomeType": 2,
       "Priority": 1,
       "MembershipLevelID": "",
@@ -97,7 +121,10 @@
       "TriggerMode": 0,
       "CustomerTags": [],
       "RunType": 2,
-      "StartAt": { "_seconds": 1580475600, "_nanoseconds": 0 },
+      "StartAt": {
+        "_seconds": 1580475600,
+        "_nanoseconds": 0
+      },
       "IsMostExpensiveFirst": false,
       "NotApplicableWithCoupon": false,
       "IsDisabled": false,
@@ -115,7 +142,12 @@
       "ProductTagOutcomes": [],
       "ProductCategoryOutcomes": [],
       "DiscountPercentageValue": 0,
-      "ProductTagConditions": [{ "ProductTagID": "3277", "Quantity": 3 }],
+      "ProductTagConditions": [
+        {
+          "ProductTagID": "3277",
+          "Quantity": 3
+        }
+      ],
       "ProductCategoryConditions": [],
       "OutcomePriceType": 0,
       "ID": "37009",
@@ -135,7 +167,12 @@
   },
   "ContactEmail": "DinTaiFungDemo@email.com",
   "RegistrationNumber": null,
-  "DeliveryAreas": [{ "PostcodeFrom": "3000", "PostcodeTo": "3150" }],
+  "DeliveryAreas": [
+    {
+      "PostcodeFrom": "3000",
+      "PostcodeTo": "3150"
+    }
+  ],
   "PaymentConfigNab": null,
   "IsTest": false,
   "OfficePhone": null,
@@ -156,7 +193,10 @@
     "State": "Vic",
     "Location": {
       "type": "Point",
-      "coordinates": [35.810149, 50.874762]
+      "coordinates": [
+        35.810149,
+        50.874762
+      ]
     }
   },
   "OperatingHours": [

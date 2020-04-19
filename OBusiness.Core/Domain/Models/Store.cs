@@ -9,7 +9,6 @@ namespace OBusiness.Core.Domain.Models
     public class Store : BaseEntity
     {
 
-        public int StoreID { get; set; }
         public string Name { get; set; }
 
         [BsonElement("menus")]

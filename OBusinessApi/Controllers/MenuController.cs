@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OBusiness.Core.Domain.Models;
+using OBusiness.Services.Interfaces;
 
 namespace OBusinessApi.Controllers
 {
@@ -11,12 +13,22 @@ namespace OBusinessApi.Controllers
     [ApiController]
     public class MenuController : ControllerBase
     {
-        // GET: api/Menu
-        [HttpGet]
-        public IEnumerable<string> Get()
+        IMenuService MenuService;
+        public MenuController(IMenuService MenuService)
         {
-            return new string[] { "value1", "value2" };
+            this.MenuService = MenuService;
         }
-             
+        [HttpGet("{id}")]
+        public async Task<ActionResult<List<Menu>>> Get([FromRoute]string id)
+        {
+            var find = await MenuService.GetStoreMenus(id);
+            if (find.Count == 0)
+            {
+                return NotFound();
+            }
+            return find;
+        }
+
+
     }
 }

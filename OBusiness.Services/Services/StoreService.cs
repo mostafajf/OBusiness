@@ -1,6 +1,8 @@
 ﻿using MongoDB.Driver;
+using MongoDB.Driver.GeoJsonObjectModel;
 using OBusiness.Core.Data;
 using OBusiness.Core.Domain.Models;
+using OBusiness.Core.Dto.Input;
 using OBusiness.Services.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -39,9 +41,9 @@ namespace OBusiness.Services.Services
             return store.FirstOrDefault();
         }
 
-        public async Task<Store> GetByStoreID(int id)
+        public async Task<Store> GetByStoreID(string id)
         {
-            var store = await StoreRepository.Collection.FindAsync(c => c.StoreID == id);
+            var store = await StoreRepository.Collection.FindAsync(c => c.Id == id);
             return store.FirstOrDefault();
         }
 
@@ -58,6 +60,14 @@ namespace OBusiness.Services.Services
         public async Task Update(Store entity)
         {
             await StoreRepository.Update(entity);
+        }
+        public async Task<List<Store>> GetNearby(GeoPoint location)
+        {
+            var point = GeoJson.Point(GeoJson.Geographic(location.Latitude, location.Longitude)); //long, lat
+            var builder = Builders<Store>.Filter;
+            var filter = builder.Near(bs => bs.Location, point, minDistance: 10000);
+            return (await StoreRepository.Collection.FindAsync(filter)).ToList();
+
         }
     }
 }

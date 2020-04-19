@@ -1,14 +1,20 @@
 {
-  "_id": { "$oid": "A27f1f77bcf86cd799439012" },
-  "StoreId": { "$oid": "A07f1f77bcf82cd799439012" },
+  "_id": {
+    "$oid": "A27f1f77bcf86cd799439012"
+  },
+  "StoreId": "507f1f77bcf86cd799439012",
   "Name": "DefaultMenu",
   "Doc": {
     "Products": {
       "1226314": {
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Delight 招牌小菜",
         "RevenueGroup": null,
@@ -18,17 +24,25 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00067"
       },
       "1226327": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00068",
         "ShortDescription": "GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shanghai Style Drunken Chicken (Cold Dish) 上海醉鸡",
         "RevenueGroup": null,
@@ -46,12 +60,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00069",
         "ShortDescription": "Vegetarian option available upon request",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Silken Tofu with Pork Floss & Century Egg (Cold Dish) 凉拌皮蛋豆腐"
       },
@@ -59,8 +79,12 @@
         "ProductCode": "A-00070",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fried Shrimp & Pork Wonton (4pcs) 炸虾肉馄饨(4个）",
         "RevenueGroup": null,
@@ -70,7 +94,9 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"]
+        "ModifierGroups": [
+          "78166"
+        ]
       },
       "1226366": {
         "ProductTagIDs": [],
@@ -78,12 +104,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00071",
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Spring Roll (2 rolls) 素菜春卷(2卷）",
         "RevenueGroup": null,
@@ -93,8 +125,12 @@
         "ProductCode": "A-00072",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Spicy Shrimp & Pork Wonton (6pcs)  虾肉红油抄手（6个）",
         "RevenueGroup": null,
@@ -104,18 +140,27 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78323", "78166"]
+        "ModifierGroups": [
+          "78323",
+          "78166"
+        ]
       },
       "1226392": {
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00073",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Spicy Chicken & Mushroom Dumpling (6pcs) 鸡肉冬菇红油抄手（6个）",
         "RevenueGroup": null,
@@ -131,22 +176,35 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00074",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Spicy Seafood Dumpling (6pcs) 海鲜红油抄手（6个）"
       },
       "1226419": {
-        "ModifierGroups": ["78323", "78166"],
+        "ModifierGroups": [
+          "78323",
+          "78166"
+        ],
         "ProductCode": "A-00075",
         "ShortDescription": "Spicy, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Spicy Vegetarian Wonton (6pcs) 素菜红油抄手（6个）",
         "RevenueGroup": null,
@@ -160,12 +218,18 @@
       "1226433": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00076",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Wonton with Special Shallot Sauce (6pcs) 虾肉葱油抄手（6个）",
         "RevenueGroup": null,
@@ -178,12 +242,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00077",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken & Mushroom Dumpling with Special Shallot Sauce (6pcs) 鸡肉冬菇葱油抄手（6个）",
         "RevenueGroup": null,
@@ -201,18 +271,28 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00078",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"]
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ]
       },
       "1226473": {
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crumbed Chicken Fillet 炸鸡排",
         "RevenueGroup": null,
@@ -222,16 +302,25 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78363", "78166"],
+        "ModifierGroups": [
+          "78363",
+          "78166"
+        ],
         "ProductCode": "A-00079"
       },
       "1226486": {
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00080",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fried Pork Chop Deboned 炸猪排",
         "RevenueGroup": null,
@@ -244,8 +333,12 @@
       },
       "1226499": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Battered Calamari 鲜炸鱿鱼圈",
         "RevenueGroup": null,
@@ -255,19 +348,28 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78363", "78166"],
+        "ModifierGroups": [
+          "78363",
+          "78166"
+        ],
         "ProductCode": "A-00081",
         "ShortDescription": ""
       },
       "1226513": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00082",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67235"],
-        "ProductCategoryNames": ["Small Sharing Plates"],
+        "ProductCategoryIDs": [
+          "67235"
+        ],
+        "ProductCategoryNames": [
+          "Small Sharing Plates"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crispy Golden Prawn Pancake 黄金虾肉煎饼",
         "RevenueGroup": null,
@@ -280,12 +382,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00083",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Pan Fried Chicken & Mushroom Pot Stickers (6pcs) 鸡肉冬菇煎饺（6个）",
         "RevenueGroup": null,
@@ -295,12 +403,18 @@
       },
       "1226539": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00084",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Pan Fried Seafood Pot Stickers (6pcs) 海鲜煎饺（6个）",
         "RevenueGroup": null,
@@ -318,12 +432,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00085",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Pork Dumpling (Xiao Long Bao) (8pcs) 小笼包（8个）"
       },
@@ -331,12 +451,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00086",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Black Truffle Pork Dumpling (1pc) 松露小笼包（1个）",
         "RevenueGroup": null,
@@ -345,7 +471,9 @@
         "TaxRate": 0.1
       },
       "1226579": {
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Shao Mai (4pcs) 虾仁烧卖（4个）",
         "RevenueGroup": null,
@@ -355,22 +483,32 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00087",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"]
+        "ProductCategoryIDs": [
+          "64281"
+        ]
       },
       "1226592": {
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00088",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Dumpling (6pcs) 虾肉蒸饺（6个）",
         "RevenueGroup": null,
@@ -380,8 +518,12 @@
       },
       "1226605": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Seafood Dumpling (6pcs) 海鲜蒸饺（6个）",
         "RevenueGroup": null,
@@ -391,12 +533,16 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00089",
         "ShortDescription": ""
       },
       "1226618": {
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken Dumpling (6pcs) 鸡肉蒸饺（6个）",
         "RevenueGroup": null,
@@ -406,11 +552,15 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00090",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"]
+        "ProductCategoryIDs": [
+          "64281"
+        ]
       },
       "1226631": {
         "PhotoUrlCombinationImage": "",
@@ -422,21 +572,33 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00091",
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"]
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ]
       },
       "1226645": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00092",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Pork Bun(1pc) 猪肉大包（1个）",
         "RevenueGroup": null,
@@ -456,21 +618,33 @@
         "DisplayOrder": null,
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00093/720a838a-1f19-41da-86ce-96c152cb049b_productImg.png",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00093",
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"]
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ]
       },
       "1226671": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00094",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["64281"],
-        "ProductCategoryNames": ["Dumpling & Bun"],
+        "ProductCategoryIDs": [
+          "64281"
+        ],
+        "ProductCategoryNames": [
+          "Dumpling & Bun"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "BBQ Pork Bun (1pc) 叉烧大包（1个）",
         "RevenueGroup": null,
@@ -481,7 +655,9 @@
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00094/fe58a232-a701-4032-87de-f06c8801eee9_productImg.png"
       },
       "1226687": {
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken Soup Double Boiled with Chinese Rice Wine 元盅鸡汤",
         "RevenueGroup": null,
@@ -491,20 +667,30 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00095",
         "ShortDescription": "GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"]
+        "ProductCategoryIDs": [
+          "64282"
+        ]
       },
       "1226700": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00096",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Corn Soup with Crab Meat 玉米蟹肉汤",
         "RevenueGroup": null,
@@ -516,12 +702,18 @@
       },
       "1226713": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00097",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Hot & Sour Soup with Shredded Pork 酸辣汤",
         "RevenueGroup": null,
@@ -533,12 +725,18 @@
       },
       "1226726": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00098",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Braised Beef Soup with Spinach 红烧牛肉汤",
         "RevenueGroup": null,
@@ -551,12 +749,20 @@
       "1226739": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00099",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Wonton Soup (6pcs) 虾肉馄饨汤（6个）",
         "RevenueGroup": null,
@@ -573,23 +779,39 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00100",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken & Mushroom Dumpling Soup (6pcs) 鸡肉冬菇馄饨汤（6个）"
       },
       "1226765": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00101",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Seafood Dumpling Soup (6pcs) 海鲜馄饨汤（6个）",
         "RevenueGroup": null,
@@ -605,12 +827,20 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00102",
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64282"],
-        "ProductCategoryNames": ["Soup"],
+        "ProductCategoryIDs": [
+          "64282"
+        ],
+        "ProductCategoryNames": [
+          "Soup"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Wonton Soup (6pcs) 素菜馄饨汤（6个）",
         "RevenueGroup": null,
@@ -618,8 +848,12 @@
       },
       "1226791": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crisp-fried Prawns with Mayonnaise and Pineapple 凤梨虾球",
         "RevenueGroup": null,
@@ -629,18 +863,26 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00103",
         "ShortDescription": ""
       },
       "1226804": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00104",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Black Pepper Beef Tenderloin 黑椒牛柳粒",
         "RevenueGroup": null,
@@ -651,7 +893,9 @@
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00104/f96788c6-d0fb-4a9a-acc5-514cb1e48b04_productImg.png"
       },
       "1226817": {
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Stir Fried Beef with Honey Sauce 蜜汁牛肉",
         "RevenueGroup": null,
@@ -661,16 +905,24 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00105",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"]
+        "ProductCategoryIDs": [
+          "67249"
+        ]
       },
       "1226830": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Kung Pao Chicken with Cashew Nuts 空保鸡丁",
         "RevenueGroup": null,
@@ -680,15 +932,22 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00106",
         "ShortDescription": "Spicy"
       },
       "1226843": {
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Kung Pao Tofu with Cashew Nuts 宫保豆腐",
         "RevenueGroup": null,
@@ -698,17 +957,26 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00107"
       },
       "1226856": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00108",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crispy Chilli Chicken 蒜蓉辣子鸡",
         "RevenueGroup": null,
@@ -726,12 +994,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00109",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sweet & Sour Pineapple Chicken 菠萝咕噜鸡肉"
       },
@@ -739,8 +1013,12 @@
         "ProductCode": "A-00110",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sweet & Sour Pineapple Pork 菠萝咕噜猪肉",
         "RevenueGroup": null,
@@ -750,10 +1028,14 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"]
+        "ModifierGroups": [
+          "78166"
+        ]
       },
       "1226895": {
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sauteed Broccoli with Garlic Prawn 西兰花炒虾仁",
         "RevenueGroup": null,
@@ -763,16 +1045,24 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00111",
         "ShortDescription": "GF, Vegetarian option available upon request",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"]
+        "ProductCategoryIDs": [
+          "67249"
+        ]
       },
       "1226908": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Green Bean with Minced Pork & Dried Shrimp 干煸虾米四季豆",
         "RevenueGroup": null,
@@ -782,12 +1072,17 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78349", "78166"],
+        "ModifierGroups": [
+          "78349",
+          "78166"
+        ],
         "ProductCode": "A-00112",
         "ShortDescription": "Vegetarian option available upon request"
       },
       "1226921": {
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Water Spinach with Garlic 蒜蓉炒空心菜",
         "RevenueGroup": null,
@@ -797,20 +1092,30 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00113",
         "ShortDescription": "GF, Vegetarian option available upon request",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"]
+        "ProductCategoryIDs": [
+          "67249"
+        ]
       },
       "1226934": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00114",
         "ShortDescription": "GF, Vegetarian option available upon request",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Spinach with Garlic 蒜蓉炒菠菜",
         "RevenueGroup": null,
@@ -826,12 +1131,18 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00115",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Broccolini with Oyster Sauce 蚝油蒜蓉西兰花苗",
         "RevenueGroup": null,
@@ -839,12 +1150,18 @@
       },
       "1226960": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00116",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67249"],
-        "ProductCategoryNames": ["Main Dish"],
+        "ProductCategoryIDs": [
+          "67249"
+        ],
+        "ProductCategoryNames": [
+          "Main Dish"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chinese Broccoli with Oyster Sauce & Garlic 蚝油蒜蓉芥蓝",
         "RevenueGroup": null,
@@ -856,12 +1173,19 @@
       },
       "1226973": {
         "RewardPoint": 0,
-        "ModifierGroups": ["72098", "78166"],
+        "ModifierGroups": [
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00117",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Cha Jiang Noodle with Minced Pork 炸酱面",
         "RevenueGroup": null,
@@ -873,8 +1197,12 @@
       },
       "1226986": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sesame Noodle (Spicy) 麻酱面（辣）",
         "RevenueGroup": null,
@@ -884,7 +1212,10 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["72098", "78166"],
+        "ModifierGroups": [
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00118",
         "ShortDescription": "Spicy, Vegetarian option available upon request"
       },
@@ -894,12 +1225,19 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["72098", "78166"],
+        "ModifierGroups": [
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00119",
         "ShortDescription": "Vegetarian option available upon request",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sesame Noodle (Non Spicy) 麻酱面（不辣）",
         "RevenueGroup": null,
@@ -907,12 +1245,20 @@
       },
       "1227420": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00120",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Braised Beef Noodle Soup 红烧牛肉面",
         "RevenueGroup": null,
@@ -923,7 +1269,9 @@
         "PhotoUrl": ""
       },
       "1227432": {
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken Soup Double Boiled with Chinese Rice Wine, served with Noodle 元盅鸡汤面",
         "RevenueGroup": null,
@@ -933,17 +1281,27 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00121",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"]
+        "ProductCategoryIDs": [
+          "67263"
+        ]
       },
       "1227444": {
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crumbed Chicken Fillet with Noodle Soup 鸡排汤面",
         "RevenueGroup": null,
@@ -953,16 +1311,28 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00122"
       },
       "1227456": {
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00123",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fried Pork Chop with Noodle Soup 猪排汤面",
         "RevenueGroup": null,
@@ -976,12 +1346,20 @@
       "1227468": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00124",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Wonton Noodle Soup 虾肉馄饨汤面",
         "RevenueGroup": null,
@@ -993,8 +1371,12 @@
       "1227480": {
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Wonton Noodle Soup 素菜馄饨汤面",
         "RevenueGroup": null,
@@ -1004,18 +1386,30 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00125"
       },
       "1227492": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00126",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken & Mushroom Dumpling Noodle Soup 鸡肉冬菇馄饨汤面",
         "RevenueGroup": null,
@@ -1026,12 +1420,20 @@
       },
       "1227504": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00127",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Seafood Dumpling Noodle Soup 海鲜馄饨汤面",
         "RevenueGroup": null,
@@ -1042,7 +1444,9 @@
         "PhotoUrl": ""
       },
       "1227516": {
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Prawn Vermicelli Soup with Egg & Spinach 虾仁蛋花菠菜粉丝",
         "RevenueGroup": null,
@@ -1052,22 +1456,36 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00128",
         "ShortDescription": "GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"]
+        "ProductCategoryIDs": [
+          "67263"
+        ]
       },
       "1227528": {
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00129",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Plain Noodle Soup 清汤面",
         "RevenueGroup": null,
@@ -1077,12 +1495,20 @@
       },
       "1227540": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00130",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crumbed Chicken Fillet Dry Noodle with Special Shallot Sauce 鸡排葱油面",
         "RevenueGroup": null,
@@ -1094,12 +1520,20 @@
       },
       "1227552": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00131",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fried Pork Chop Dry Noodle with Special Shallot Sauce 猪排葱油面",
         "RevenueGroup": null,
@@ -1113,12 +1547,20 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00132",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Wonton Dry Noodle with Special Shallot Sauce 虾肉抄手葱油面",
         "RevenueGroup": null,
@@ -1128,12 +1570,20 @@
       },
       "1227576": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00133",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken & Mushroom Dumpling Dry Noodle with Special Shallot Sauce 鸡肉冬菇抄手葱油面",
         "RevenueGroup": null,
@@ -1145,12 +1595,20 @@
       },
       "1227588": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00134",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Seafood Dumpling Dry Noodle with Special Shallot Sauce 海鲜抄手葱油面",
         "RevenueGroup": null,
@@ -1163,8 +1621,12 @@
       "1227600": {
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Crumbed Chicken Fillet Noodle with Spicy Sauce 鸡排红油燃面",
         "RevenueGroup": null,
@@ -1174,7 +1636,11 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00135"
       },
       "1227612": {
@@ -1185,12 +1651,20 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00136",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fried Pork Chop Noodle with Spicy Sauce 猪排红油燃面"
       },
@@ -1198,12 +1672,20 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00137",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shrimp & Pork Wonton Noodle with Spicy Sauce 虾肉抄手红油燃面",
         "RevenueGroup": null,
@@ -1214,8 +1696,12 @@
       "1227636": {
         "ShortDescription": "Spicy, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Wonton Noodle with Spicy Sauce素菜抄手红油燃面",
         "RevenueGroup": null,
@@ -1225,17 +1711,29 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00138"
       },
       "1227648": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00139",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chicken & Mushroom Dumpling Noodle with Spicy Sauce 鸡肉冬菇抄手红油燃面",
         "RevenueGroup": null,
@@ -1246,12 +1744,20 @@
         "PhotoUrl": ""
       },
       "1227660": {
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00140",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Seafood Dumpling Noodle with Spicy Sauce 海鲜抄手红油燃面",
         "RevenueGroup": null,
@@ -1264,12 +1770,20 @@
       },
       "1227672": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00141",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Dry Noodle with Special Shallot Sauce 葱油拌面",
         "RevenueGroup": null,
@@ -1280,12 +1794,20 @@
         "PhotoUrl": ""
       },
       "1227684": {
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00142",
         "ShortDescription": "Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Plain Noodle Dry 白面",
         "RevenueGroup": null,
@@ -1304,23 +1826,39 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00143",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shredded Beef Noodle with Spicy Sauce 牛肉丝红油燃面"
       },
       "1227708": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00144",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Shredded Pork Noodle with Spicy Sauce 猪肉丝红油燃面",
         "RevenueGroup": null,
@@ -1331,7 +1869,9 @@
         "PhotoUrl": ""
       },
       "1227720": {
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Black Pepper Beef Stir Fried Noodle 牛肉丝黑椒酱炒面",
         "RevenueGroup": null,
@@ -1341,21 +1881,35 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00145",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"]
+        "ProductCategoryIDs": [
+          "67263"
+        ]
       },
       "1227732": {
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00146",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Kung Pao Chicken Noodle with Egg & Cashew Nuts 宫保鸡面",
         "RevenueGroup": null,
@@ -1370,12 +1924,20 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00147",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Kung Pao Prawn Noodle with Egg & Cashew Nuts 宫保虾面",
         "RevenueGroup": null,
@@ -1389,22 +1951,38 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "72098", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72098",
+          "78166"
+        ],
         "ProductCode": "A-00148",
         "ShortDescription": "Spicy",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67263"],
-        "ProductCategoryNames": ["Noodle"],
+        "ProductCategoryIDs": [
+          "67263"
+        ],
+        "ProductCategoryNames": [
+          "Noodle"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chilli Stir Fried Noodle with Egg & Prawn 虾仁辣酱炒面"
       },
       "1227768": {
-        "ModifierGroups": ["78336", "72097", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "72097",
+          "78166"
+        ],
         "ProductCode": "A-00160",
         "ShortDescription": "Vegetarian, GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Steamed Medium Grain Rice 白米饭",
         "RevenueGroup": null,
@@ -1416,7 +1994,9 @@
         "RewardPoint": 0
       },
       "1227780": {
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Cha Jiang Rice with Minced Pork 炸酱饭",
         "RevenueGroup": null,
@@ -1426,17 +2006,25 @@
         "DisplayOrder": null,
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00159/ec74b559-d330-4fe0-a5de-b5d026ffe241_productImg.png",
         "RewardPoint": 0,
-        "ModifierGroups": ["78166"],
+        "ModifierGroups": [
+          "78166"
+        ],
         "ProductCode": "A-00159",
         "ShortDescription": "GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"]
+        "ProductCategoryIDs": [
+          "64286"
+        ]
       },
       "1227792": {
         "ShortDescription": "Contain Seafood",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "XO Egg Fried Rice with Chicken XOXO酱鸡肉蛋炒饭",
         "RevenueGroup": null,
@@ -1446,17 +2034,27 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00158"
       },
       "1227804": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00157",
         "ShortDescription": "Contain Seafood",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "XO Egg Fried Rice with Prawn XO XO酱虾仁蛋炒饭",
         "RevenueGroup": null,
@@ -1468,12 +2066,19 @@
       },
       "1227816": {
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00156",
         "ShortDescription": "Vegetarian, GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Egg Fried Rice 素菜蛋炒饭",
         "RevenueGroup": null,
@@ -1487,12 +2092,19 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00155",
         "ShortDescription": "Vegetarian, GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Vegetarian Egg Fried Rice with Mushroom & Truffle Oil 松露油素菜蛋炒饭",
         "RevenueGroup": null,
@@ -1504,12 +2116,19 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00154",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Shredded Pork 猪肉丝蛋炒饭",
         "RevenueGroup": null,
@@ -1523,12 +2142,19 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00153",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Shredded Beef 牛肉丝蛋炒饭",
         "RevenueGroup": null,
@@ -1538,8 +2164,12 @@
         "ProductCode": "A-00152",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Shredded Beef & Truffle Oil 松露油牛肉丝蛋炒饭",
         "RevenueGroup": null,
@@ -1549,7 +2179,10 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"]
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ]
       },
       "1227876": {
         "RevenueGroup": null,
@@ -1559,17 +2192,26 @@
         "DisplayOrder": null,
         "PhotoUrl": "",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00151",
         "ShortDescription": "GF",
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Prawn 虾仁蛋炒饭"
       },
       "1227888": {
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Fried Pork Chop 猪排蛋炒饭",
         "RevenueGroup": null,
@@ -1579,11 +2221,16 @@
         "DisplayOrder": null,
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00150/fe5e7e32-23a8-4337-9290-036b03c08314_productImg.png",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00150",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"]
+        "ProductCategoryIDs": [
+          "64286"
+        ]
       },
       "1227900": {
         "RevenueGroup": null,
@@ -1593,12 +2240,19 @@
         "DisplayOrder": null,
         "PhotoUrl": "https://app.abacus.co/Assets/Products/Imgs/2478064/A-00149/2be0f64f-ed0c-4496-b26a-aaf4c395586e_productImg.png",
         "RewardPoint": 0,
-        "ModifierGroups": ["78336", "78166"],
+        "ModifierGroups": [
+          "78336",
+          "78166"
+        ],
         "ProductCode": "A-00149",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["64286"],
-        "ProductCategoryNames": ["Fried Rice"],
+        "ProductCategoryIDs": [
+          "64286"
+        ],
+        "ProductCategoryNames": [
+          "Fried Rice"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Egg Fried Rice with Crumbed Chicken Fillet 鸡排蛋炒饭"
       },
@@ -1608,8 +2262,12 @@
         "ProductCode": "A-00161",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67296"],
-        "ProductCategoryNames": ["Hot Dessert"],
+        "ProductCategoryIDs": [
+          "67296"
+        ],
+        "ProductCategoryNames": [
+          "Hot Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Black Sesame Mini Bun (1 pc) 迷你黑芝麻包（1个）",
         "RevenueGroup": null,
@@ -1642,8 +2300,12 @@
         "ProductCode": "A-00168",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Pudding 芒果布丁",
         "RevenueGroup": null,
@@ -1659,8 +2321,12 @@
         "ProductCode": "A-00169",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Pudding with Fresh Mango 鲜切芒果布丁",
         "RevenueGroup": null,
@@ -1684,8 +2350,12 @@
         "ProductCode": "A-00170",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"]
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ]
       },
       "1228032": {
         "RewardPoint": 0,
@@ -1693,8 +2363,12 @@
         "ProductCode": "A-00171",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Taro Ice Cream 香芋冰淇淋",
         "RevenueGroup": null,
@@ -1705,7 +2379,9 @@
         "PhotoUrl": ""
       },
       "1228044": {
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sticky Rice Ice Cream 糯米冰淇淋",
         "RevenueGroup": null,
@@ -1719,7 +2395,9 @@
         "ProductCode": "A-00172",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"]
+        "ProductCategoryIDs": [
+          "67297"
+        ]
       },
       "1228056": {
         "PhotoUrl": "",
@@ -1728,8 +2406,12 @@
         "ProductCode": "A-00173",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Matcha Ice Cream 抹茶冰淇淋",
         "RevenueGroup": null,
@@ -1742,8 +2424,12 @@
         "ProductCode": "A-00174",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Durian Ice Cream 榴莲冰淇淋",
         "RevenueGroup": null,
@@ -1757,8 +2443,12 @@
       },
       "1228080": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Macadamia Ice Cream 澳洲坚果冰淇淋",
         "RevenueGroup": null,
@@ -1779,8 +2469,12 @@
         "ProductCode": "A-00176",
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Tiramisu Ice Cream 提拉米苏冰淇淋",
         "RevenueGroup": null,
@@ -1792,8 +2486,12 @@
       "1228104": {
         "ShortDescription": "GF, Vegetarian",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Sorbet 芒果冰淇淋",
         "RevenueGroup": null,
@@ -1808,8 +2506,12 @@
       },
       "1228116": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67297"],
-        "ProductCategoryNames": ["Cold Dessert"],
+        "ProductCategoryIDs": [
+          "67297"
+        ],
+        "ProductCategoryNames": [
+          "Cold Dessert"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Passionfruit Sorbet 百香果冰淇淋",
         "RevenueGroup": null,
@@ -1824,7 +2526,9 @@
         "ShortDescription": "GF, Vegetarian"
       },
       "1228128": {
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Soy Bean Milk (Hot/Cold) 豆浆",
         "RevenueGroup": null,
@@ -1838,7 +2542,9 @@
         "ProductCode": "A-00179",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"]
+        "ProductCategoryIDs": [
+          "67298"
+        ]
       },
       "1228140": {
         "RevenueGroup": null,
@@ -1852,8 +2558,12 @@
         "ProductCode": "A-00180",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Lychee Mint Freeze 薄荷荔枝蜜"
       },
@@ -1869,13 +2579,19 @@
         "ProductCode": "A-00181",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Lychee Mint Freeze?Vodka) 薄荷荔枝蜜（伏特加）"
       },
       "1228164": {
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Tango 芒果冰沙",
         "RevenueGroup": null,
@@ -1889,15 +2605,21 @@
         "ProductCode": "A-00182",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"]
+        "ProductCategoryIDs": [
+          "67298"
+        ]
       },
       "1228176": {
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Bubble Lychee Green Tea 荔枝珍珠奶茶",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -1906,7 +2628,9 @@
         "ProductCode": "A-00183",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"]
+        "ProductCategoryIDs": [
+          "67298"
+        ]
       },
       "1228188": {
         "DisplayOrder": null,
@@ -1916,13 +2640,19 @@
         "ProductCode": "A-00184",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Bubble Milk Tea 珍珠奶茶",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1
       },
       "1228200": {
@@ -1931,13 +2661,19 @@
         "ProductCode": "A-00185",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Bubble Mango Latte 芒果珍珠奶茶",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": ""
@@ -1950,8 +2686,12 @@
         "ProductCode": "A-00186",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Bubble Italian Soda 芒果珍珠意大利苏打",
         "RevenueGroup": null,
@@ -1962,13 +2702,19 @@
       "1228224": {
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Bubble Strawberry Latte 草莓珍珠奶茶",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -1977,7 +2723,9 @@
         "ProductCode": "A-00187"
       },
       "1228236": {
-        "ProductCategoryNames": ["Signature Drinks"],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Strawberry Bubble Italian Soda 草莓珍珠意大利苏打",
         "RevenueGroup": null,
@@ -1991,14 +2739,18 @@
         "ProductCode": "A-00188",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"]
+        "ProductCategoryIDs": [
+          "67298"
+        ]
       },
       "1228248": {
         "PhotoUrlCombinationImage": "",
         "Name": "Thai Bubble Milk Tea 泰式珍珠奶茶",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -2007,11 +2759,17 @@
         "ProductCode": "A-00189",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67298"],
-        "ProductCategoryNames": ["Signature Drinks"]
+        "ProductCategoryIDs": [
+          "67298"
+        ],
+        "ProductCategoryNames": [
+          "Signature Drinks"
+        ]
       },
       "1228260": {
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Apple Juice 鲜榨苹果汁",
         "RevenueGroup": null,
@@ -2025,12 +2783,18 @@
         "ProductCode": "A-00190",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"]
+        "ProductCategoryIDs": [
+          "67299"
+        ]
       },
       "1228272": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Orange Juice 鲜榨橙汁",
         "RevenueGroup": null,
@@ -2054,8 +2818,12 @@
         "ProductCode": "A-00192",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Watermelon Juice 鲜榨西瓜汁",
         "RevenueGroup": null,
@@ -2068,13 +2836,19 @@
         "ProductCode": "A-00193",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Coke 可乐",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null
       },
@@ -2083,7 +2857,9 @@
         "Name": "Coke No Sugar 无糖可乐",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -2092,19 +2868,29 @@
         "ProductCode": "A-00194",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"]
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ]
       },
       "1228320": {
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Diet Coke 低糖可乐",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -2114,13 +2900,19 @@
       },
       "1228332": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sprite 雪碧",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1,
         "DisplayOrder": null,
         "PhotoUrl": "",
@@ -2137,21 +2929,31 @@
         "ProductCode": "A-00197",
         "ShortDescription": null,
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Fanta Orange 芬达",
         "RevenueGroup": null,
         "Status": null,
-        "ProductTagIDs": ["3277"],
+        "ProductTagIDs": [
+          "3277"
+        ],
         "TaxRate": 0.1
       },
       "1228356": {
         "ProductCode": "A-00198",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Sparkling Water 气泡水",
         "RevenueGroup": null,
@@ -2165,8 +2967,12 @@
       },
       "1228368": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Ginger Beer 姜汁啤酒",
         "RevenueGroup": null,
@@ -2187,8 +2993,12 @@
         "ProductCode": "A-00200",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Lemon Lime Bitters 柠檬气泡水",
         "RevenueGroup": null,
@@ -2203,8 +3013,12 @@
         "ProductCode": "A-00201",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Lemon Iced Tea 冻柠茶",
         "RevenueGroup": null,
@@ -2215,7 +3029,9 @@
         "PhotoUrl": ""
       },
       "1228404": {
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Lychee Iced Tea 荔枝茶",
         "RevenueGroup": null,
@@ -2229,12 +3045,18 @@
         "ProductCode": "A-00202",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"]
+        "ProductCategoryIDs": [
+          "67299"
+        ]
       },
       "1228416": {
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Mango Iced Tea 芒果茶",
         "RevenueGroup": null,
@@ -2260,8 +3082,12 @@
         "ProductCode": "A-00204",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Peach Iced Tea 水蜜桃茶"
       },
@@ -2273,8 +3099,12 @@
         "ProductCode": "A-00205",
         "ShortDescription": "",
         "FullDescription": null,
-        "ProductCategoryIDs": ["67299"],
-        "ProductCategoryNames": ["Juice, Soda & Tea"],
+        "ProductCategoryIDs": [
+          "67299"
+        ],
+        "ProductCategoryNames": [
+          "Juice, Soda & Tea"
+        ],
         "PhotoUrlCombinationImage": "",
         "Name": "Chinese Tea, Jasmine Blend (per person) 茉莉花茶",
         "RevenueGroup": null,
@@ -2314,7 +3144,11 @@
         "Name": "Popular",
         "ID": 0
       },
-      "SCTypeAppOnly": { "ID": 1, "SubMenuItems": [], "Name": "App Only" }
+      "SCTypeAppOnly": {
+        "ID": 1,
+        "SubMenuItems": [],
+        "Name": "App Only"
+      }
     },
     "Categories": [
       {

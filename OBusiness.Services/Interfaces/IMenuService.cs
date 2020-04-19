@@ -9,6 +9,7 @@ namespace OBusiness.Services.Interfaces
     public interface IMenuService
     {
         Task<List<Menu>> GetAll();
+        Task<List<Menu>> GetStoreMenus(string storeId);
         Task<Menu> GetByID(string id);
         Task Add(Menu entity);
         Task AddMany(List<Menu> entities);
