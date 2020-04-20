@@ -12,7 +12,6 @@ namespace Abacus.SelfOrder.App.ObjectFactory
     public class MenuFactory
     {
 
-
         public List<MenuDto> ToMenuDto(List<Menu> menus)
         {
             var menuDtos = new List<MenuDto>();
@@ -51,12 +50,12 @@ namespace Abacus.SelfOrder.App.ObjectFactory
                         DisplayOrder = pp.DisplayOrder,
                         FullDescription = pp.FullDescription,
                         Name = pp.Name,
-                        PhotoUrl =pp.PhotoUrl,
+                        PhotoUrl = pp.PhotoUrl,
                         ProductCode = pp.ProductCode,
                         ShortDescription = pp.ShortDescription,
-                        Status = pp.Status,
+                        Status = pp.Status ?? 0,
                         TaxRate = pp.TaxRate,
-                        ProductCategoryIDs = pp.ProductCategoryIDs,
+                        ProductCategoryIDs = pp.ProductCategoryNames,
                         ProductTagIDs = pp.ProductTagIDs,
                     };
                     pDto.ModifierGroups = ModifierList(menu, product.Value, pDto);
@@ -83,7 +82,7 @@ namespace Abacus.SelfOrder.App.ObjectFactory
             {
                 ID = category.ID,
                 Name = category.Name
-            };           
+            };
 
             return categoryDto;
         }
@@ -137,11 +136,11 @@ namespace Abacus.SelfOrder.App.ObjectFactory
                     DisplayOrder = mod.DisplayOrder,
                     ID = mod.ID,
                     MaxQty = mod.MaxQty,
-                    MinQty = mod.MinQty, 
+                    MinQty = mod.MinQty,
                     Name = mod.Name,
                     Status = mod.Status,
                     OldState = mod.Status,
-                    PhotoUrl = mod.PhotoUrl,
+                    PhotoUrl = mod.PhotoURL,
                     Price = mod.Price,
                     TaxRate = mod.TaxRate,
                     LinkedProductID = mod.LinkedProductId,
@@ -153,7 +152,7 @@ namespace Abacus.SelfOrder.App.ObjectFactory
                     var linkedProduct = menu.Products.Where(p => p.Key == mod.LinkedProductId).FirstOrDefault();
                     if (linkedProduct.Key != null)
                     {
-                        mDto.Status = linkedProduct.Value.Status;
+                        mDto.Status = linkedProduct.Value.Status ?? 0;
                         mDto.OldState = linkedProduct.Value.Status == 3 ? 0 : linkedProduct.Value.Status;
                         if (!cancel)
                         {

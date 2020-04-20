@@ -12,9 +12,9 @@ namespace OBusiness.Core.Domain.Models
     public class MenuDoc
     {
         public List<Category> Categories { get; set; }
-
+        public Dictionary<string, Category> SpecialCategories { get; set; }
         public int MenuID { get; set; }
-
+        public string MenuName { get; set; }
         public Dictionary<string, Product> Products { get; set; }
 
         public Dictionary<string, ModifierGroup> ModifierGroups { get; set; }

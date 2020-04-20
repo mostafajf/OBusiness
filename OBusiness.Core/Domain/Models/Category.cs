@@ -16,5 +16,6 @@ namespace OBusiness.Core.Domain.Models
         public string PhotoUrl { get; set; }
 
         public List<SubMenuItem> SubMenuItems { get; set; }
+        public string Description { get; set; }
     }
 }

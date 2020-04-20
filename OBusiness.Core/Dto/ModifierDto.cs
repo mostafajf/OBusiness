@@ -19,15 +19,15 @@ namespace OBusiness.Core.Dto
 
         public double Price { get; set; }
 
-        public double TaxRate { get; set; }
+        public double? TaxRate { get; set; }
 
         public string PhotoUrl { get; set; }
 
         public List<ModifierGroupDto> SubModifiers { get; set; }        
         public ModifierGroupDto ModifierGroup { get; set; }
         public bool IsSingleSell => !(MaxQty >= MinQty && MaxQty > 1);
-        public int MinQty { get; set; } = 1;
-        public int MaxQty { get; set; } = 20;  
+        public int? MinQty { get; set; } = 1;
+        public int? MaxQty { get; set; } = 20;  
 
         public ModifierDto Clone(ModifierGroupDto modifierGroupVm)
         {

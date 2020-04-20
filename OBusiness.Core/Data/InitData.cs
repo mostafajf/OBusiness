@@ -1,4 +1,5 @@
-﻿using OBusiness.Core.Domain.Models;
+﻿using MongoDB.Driver;
+using OBusiness.Core.Domain.Models;
 using Pluralize.NET.Core;
 using System;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace OBusiness.Core.Data
 {
@@ -60,9 +62,13 @@ namespace OBusiness.Core.Data
             }
 
         }
-        private void CreateIndexes()
+        public async Task CreateIndexes()
         {
-
+            //store id index
+            var menuCollection = db.GetCollection<Menu>();
+            var storeIdIndex = Builders<Menu>.IndexKeys.Ascending(x => x.StoreId);
+            var storeIdModel = new CreateIndexModel<Menu>(storeIdIndex);
+            await menuCollection.Indexes.CreateOneAsync(storeIdModel);
         }
     }
 }

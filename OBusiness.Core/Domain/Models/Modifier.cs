@@ -1,6 +1,9 @@
-﻿namespace OBusiness.Core.Domain.Models
-{
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System.Collections.Generic;
 
+namespace OBusiness.Core.Domain.Models
+{
+    [BsonIgnoreExtraElements]
     public class Modifier
     {
         
@@ -21,13 +24,13 @@
         
         public double Price { get; set; }
         
-        public double TaxRate { get; set; }
+        public double? TaxRate { get; set; }
        
-        public string PhotoUrl { get; set; }
+        public string PhotoURL { get; set; }
         
-        public int MinQty { get; set; } = 0;
+        public int? MinQty { get; set; } = 0;
         
-        public int MaxQty { get; set; } = 0;
+        public int? MaxQty { get; set; } = 0;
 
 
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Abacus.SelfOrder.App.ObjectFactory;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using OBusiness.Core.Data;
 using OBusiness.Services.Interfaces;

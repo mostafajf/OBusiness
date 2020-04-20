@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System.Collections.Generic;
 
 namespace OBusiness.Core.Domain.Models
 {
+    [BsonIgnoreExtraElements]
 
     public class ModifierGroup
     {

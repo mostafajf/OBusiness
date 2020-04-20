@@ -35,6 +35,7 @@ namespace OBusinessApi
                     var init = services.GetRequiredService<InitData>();
                     var enviroment = services.GetRequiredService<IWebHostEnvironment>();
                     init.GenerateTestData(enviroment.ContentRootPath);
+                    init.CreateIndexes().GetAwaiter();
                 }
                 catch (Exception ex)
                 {

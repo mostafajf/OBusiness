@@ -34,7 +34,7 @@ namespace OBusiness.Services.Services
         }
         public async Task<List<Menu>> GetStoreMenus(string storeId)
         {
-            var Menus = await MenuRepository.Collection.FindAsync(c=>true);
+            var Menus = await MenuRepository.Collection.FindAsync(c => c.StoreId == storeId);
             return Menus.ToList();
         }
         public async Task<Menu> GetByID(string id)
